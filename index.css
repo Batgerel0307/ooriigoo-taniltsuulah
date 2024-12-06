@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+
+.header {
+    background-color: #121212;
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid white;}
+
+.p{
+    color: white;
+    font-size: 40px;
+    justify-content: center ;
+    display: flex;
+}
+
+
+.Batgerel{
+    color: rgb(255, 101, 132);
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+
+.header .li{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header .table{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(255, 255, 90);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+
+.second-p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    color: black;
+}
+
+
+.header .p, .header .li, .header .table{
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+
+.about-me{
+    background-color: black;
+}
+
+
+.about-me .part1{
+    color: white;
+    font-size: 30px;
+    font-style: courier;
+    margin-left: 40px ;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.about-me .part2{
+    color: white;
+    font-size: 20px;
+    font-style: courier;
+    margin-left: 40px;
+}
+
+
+.skill{
+    background-color: black;
+}
+
+
+.skill ,.my-skill{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.skills{
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 60px;
+}
+
+.skills .number1{
+    background-color: #121212;
+    height: 80px;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid rgb(80, 255, 89);
+}
+
+.skills .number2{
+    background-color: #121212;
+    height: 80px;
+    width: 320px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(80, 255, 89);
+}
+
+.skills .number3{
+    background-color: #121212;
+    height: 80px;
+    width: 320px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(80, 255, 89);
+}
+
+
+.soo{
+   font-size: 20px;
+   justify-content: center;
+   display: flex;
+   color: white;
+}
+
+.experience{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+
+
+.experience .exp{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+.conta{
+    width: 80vh;
+    height: 90px;
+    display: flex;
+    background-color: #121212 ;
+    border: 1px solid rgb(80, 255, 89);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.husnegt{
+    color: white;
+    display: flex;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
